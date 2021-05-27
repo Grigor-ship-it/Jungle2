@@ -1,2 +1,25 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<div class="jumbotron">
+<h1>Number of Products in Database:</h1>
+<tbody>
+<span class="values">
+<%= @products %>
+</span>
+</tbody>
+ <div class="buttons-group"
+  <p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/1" role="button">Apparel</a></p>
+  <p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/2" role="button">Electronics</a></p>
+  <p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/3" role="button">Furniture</a></p>
+</div>
+</tbody>
+</div>
+<div class="jumbotron">
+<tbody>
+<h1>Number of different Categories in Database:</h1>
+<span class="values">
+<%= @categories %>
+</span>
+<div class="buttons-group"
+<p><a class="btn btn-primary btn-lg" href="http://localhost:3000/admin/products" role="button">Products</a></p>
+</div>
+</tbody>
+</div>
