@@ -1,0 +1,10 @@
+<h1>Admin Category Controller</h1>
+
+<div class="well">
+<%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
+</div>
+
+<% @categories.each do |item| %>
+<br>
+<p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/<%= item.id %>" role="button"><%= item.name%></a></p>
+<% end %>
