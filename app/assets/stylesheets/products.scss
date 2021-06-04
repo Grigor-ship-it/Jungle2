@@ -99,7 +99,7 @@ main section.products-show {
 
 .buttons-group{
   margin-top: 16px;
-  display:flex;
+  display: flex;
   height: 46px;
 }
 
@@ -114,5 +114,9 @@ margin-right: 18px;
 .individual-item {
   display: flex;
   justify-content: space-between;
+}
+
+.btn.btn-primary-disabled:hover {
+  pointer-events: none;
 }
 

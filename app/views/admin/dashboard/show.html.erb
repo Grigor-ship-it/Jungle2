@@ -4,12 +4,13 @@
 <span class="values">
 <%= @products %>
 </span>
+<div class="buttons-group">
+<% @names.each do |item| %>
+  <br>
+  <p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/<%= item.id %>" role="button"><%= item.name%></a></p>
+  <% end %>
+  </div>
 </tbody>
- <div class="buttons-group"
-  <p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/1" role="button">Apparel</a></p>
-  <p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/2" role="button">Electronics</a></p>
-  <p><a class="btn btn-primary btn-lg" href="http://localhost:3000/categories/3" role="button">Furniture</a></p>
-</div>
 </tbody>
 </div>
 <div class="jumbotron">
