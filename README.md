@@ -2,6 +2,12 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Screenshots
+
+!["Home page Screenshot"](https://github.com/Grigor-ship-it/Jungle2/blob/master/Screenshots/Screenshot%20from%202021-06-03%2022-21-22.png?raw=true)
+!["Category filter for products"](https://github.com/Grigor-ship-it/Jungle2/blob/master/Screenshots/Jungle4.png?raw=true)
+!["Admin view for all products"](https://github.com/Grigor-ship-it/Jungle2/blob/master/Screenshots/1Jungle.png?raw=true)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
